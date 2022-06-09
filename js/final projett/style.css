@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    position:absolute;
+   
+top: 0;
+}
+img{
+   width:120px !important ; 
+   height: 150px;
+   
+}
+.countainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+.card_dimantion{
+    position: relative;
+    width: 25% !important;
+    margin-top: 4%;
+}
+.size_icon{
+    width: 50px !important;
+    height: 30px;
+    margin: 0 2%;
+}
+.icon{
+    width: 30%;
+    margin: 1% auto;
+  
+
+}
+#hint{
+    background-color: white;
+    border: 0 solid;
+}
+i{
+    font-size: 31px;
+}
+

@@ -1,0 +1,249 @@
+
+/* *******general */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(23, 129, 250);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+P{
+    font-size: .875rem;
+    color: #5d5d60;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+ul{
+    list-style-type: none;
+}
+ img{
+    width: 100%;
+    display: block;
+}
+section{
+    padding: 150px  0;
+}
+span{
+    color: #646ec9;
+}
+.align-base{
+    align-items: baseline !important;
+    justify-content: space-evenly !important;
+
+}
+.text_right{
+    text-align: start;
+}
+
+/* ***************************** */
+    
+.d-flex-betwen-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* navbar */
+.navbar{
+padding: 18px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar__links li a{
+    padding:  10px;
+    font-size: .75rem;
+    font-weight: 500;
+}
+/* **************** */
+   
+    
+/* banner */
+.bannar{
+    background-image: linear-gradient(to right, rgb(195 153 221) , rgb(0, 183, 255));
+    margin-top: 72px;
+    text-align: center;
+    color: white;
+    padding: 104px 0;
+}
+.bannar a{
+    color: white;
+    padding: 0 5px;
+}
+.bannar-links{
+    display: flex;
+    justify-content: center;
+    font-size: .75rem;
+    margin-top: 12px;
+}
+.bannar-links i{
+    margin: 0 12px;
+}
+/* ------------- ---------*/
+
+/* *************projects********** */
+.projects h2,.projects p,.projects h3{
+    text-align: center;
+}
+.projects h2{
+    font-size: 2rem;
+}
+.projects p{
+font-size: .75rem;
+color: #c7c2c2;
+
+}
+.projects_sutitle{
+    margin: 9px;
+}
+.projects_links{
+    /* text-align: center; */
+display: flex;
+justify-content: center;
+font-size: .875rem;   
+margin-top: 88px;
+margin-bottom: 79px;
+}
+.projects_links li{
+    margin: 0 15px;
+    font-size: .75rem;
+}
+.projects_cards{
+    flex-wrap: wrap;
+}
+.projects_card{
+    margin-bottom: 20px;
+}
+.projects_card figure{
+    position: relative;
+}
+
+
+.projects_animationCard{
+    opacity: 1;
+    background-image: linear-gradient(to right, rgba(195, 153, 221, 0.7) , rgba(0, 183, 255, 0.7));
+    position:absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border-radius: 7px;
+    opacity: 0;
+
+}
+.projects_animationCard img{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    width: 50px;
+}
+.projects_animationCard:hover{
+    animation-delay: .55s;
+opacity: 1;
+}
+/* ********************************** */
+
+/* **************footer**************** */
+.footer{
+    background-color: #04091e;
+    padding: 124px 0;
+    color: white;
+}
+
+
+
+.footer_Aboutme{
+    width: 42%;
+    margin: 0 22px 0 0;
+
+        
+}
+.footer p,.footer h4{
+text-align: start;
+font-weight: 500;
+margin: 15px 0;
+
+}
+
+.footer_Newsletter{
+    flex-grow: .5;
+    margin: 0 41px 0px 12px;
+    position: relative;
+
+}
+.footer_input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .btn_footer{
+    font-size: .875rem;
+    padding: 13.5px;
+    background-color: #8490ff;
+    color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+  }
+.footer a{
+    color: white;
+}
+/* ********************************** */
+/* media  */
+@media (max-width: 992px) { 
+    .navbar__links li {
+        display: none;
+       }
+       .projects_card{
+           min-width: 42%;
+       }
+  }
+@media only screen and (max-width: 575px) {
+    .navbar__links li {
+     display: none;
+    }
+    .projects_cards{
+        display: block;
+        margin: 0 auto;
+    }
+    .align-base{
+        display: block;
+    }
+    .footer_Aboutme{
+        width: 100% !important;
+        line-height: 2rem;
+    }
+    .footer_social{
+        justify-content: start !important;
+    }
+    .footer_social i{
+        padding: 5px;
+    }
+    
+
+     }
+     /* *********************** */

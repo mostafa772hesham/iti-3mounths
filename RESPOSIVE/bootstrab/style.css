@@ -1,0 +1,56 @@
+.pt-9{
+    padding-top:9.5rem ;
+}
+.p-4rem{
+    padding: 5.5rem;
+}
+.f-10{
+    font-size: .700rem;
+}
+.lh-0{
+    line-height: 0;
+}
+body {
+    font-family: 'Tenor Sans', sans-serif;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    text-transform: uppercase ;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: inherit;
+}
+.none_textdecrotion:hover{
+    text-decoration: none;
+}
+.fs12{
+    font-size: .800rem !important;
+}
+h6{
+   font-family: 'Source Serif Pro', serif;
+}
+.border1{
+    border: 1px solid;
+
+}
+footer a:hover{
+text-decoration: none;
+}
+nav a:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 35px;
+    text-decoration-thickness: 3px;
+}

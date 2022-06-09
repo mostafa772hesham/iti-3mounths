@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 11% 31%;
+
+}
+p{
+    margin: 0;
+    font-size: 7rem;
+    color: #24e4bd;
+
+}
+
+.title{
+    font-size: 2rem;
+    padding: 0 17%;
+
+}
+button:disabled{
+    background-color: #808080;
+}
+button{
+    background-color: #24e4bd;
+  border: 0 solid;
+  padding: 2% 2%;
+  font-size: 1rem;
+  color: white;
+  margin: 6% 2%;
+  border-radius: 25px;
+}
